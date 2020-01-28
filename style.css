@@ -17,7 +17,7 @@ body{
 }
 /* css barre de navigation*/
 nav{
-    height: 70px;
+    height: 4.375rem;
     flex-basis: auto;
 }
 img{
@@ -30,11 +30,11 @@ ul{
 li{
     list-style: none;
     float: left;
-    margin: 10px;
+    margin: 0.625rem;
 }
 a{
     text-decoration: none;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: rgba(97, 97, 97, 0.966);
 }
 .sign{
@@ -44,7 +44,7 @@ a{
     width:90px ;
     background-color: rgb(81, 81, 241);
     color: white;
-    font-size: 13px;
+    font-size: 0.8125rem;
 }
 /* css du Content*/
 .content{
@@ -52,50 +52,50 @@ a{
     align-items: center;
     flex-direction: column;
     flex-grow: 4;
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
 }
 .logo{
     display: flex;
     flex-direction: row;
-    margin-top: 150px;
+    margin-top: 9.375rem;
     justify-content: center;
 }
 #logo{
-    height: 100px;
-    width: 400px;
+    height: 6.25rem;
+    width: 25rem;
     justify-content: center;
     justify-content: space-around;
 }
 .div-search{
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 .search{
-    height: 45px;
-    width: 530px;
-    padding-left: 20px;
-    font-size: 20px;
+    height: 2.8125rem;
+    width: 33.125rem;
+    padding-left: 1.25rem;
+    font-size: 1.25rem;
     flex-direction: row;
     border: solid 1px #e5e5e5;
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 3.125rem;
     background-color: transparent;
     justify-content: center;
     box-shadow: #eef1f1d3 2px 2px 2px 2px;
 }
 .mic{
-    margin-left: -45px;
+    margin-left: -2.8125rem;
     height: 27px;
     width: 26px;
-    margin-top: 10px;
-    margin-right: 20px;
+    margin-top: 0.625rem;
+    margin-right: 1.25rem;
 }
 .buttn{ 
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 35px; 
-    margin-bottom: 25px;
+    margin-top: 2.1875rem; 
+    margin-bottom: 1.5625rem;
 }
 button{
     border-style: none;
@@ -104,21 +104,21 @@ button{
     box-shadow: rgb(247, 247, 247) 1px 1px 1px 1px;
     padding: 6px;
     color: rgba(97, 97, 97, 0.966);
-    width: 150px;
-    height: 35px;
-    font-size: 14px;
+    width: 9.375rem;
+    height: 2.1875rem;
+    font-size: 0.875rem;
     border: solid 1px #f9f9f9;
 }
 button:hover{
     background-color: #d4d4d4;
 }
 span{
-    margin: 10px;
+    margin: 0.625rem;
     margin-top: 5px;
 }
 .caption{
-    height: 25px;
-    margin-bottom: 50px;
+    height: 1.5625rem;
+    margin-bottom: 3.125rem;
 }
 em{
     font-style: normal;
@@ -131,22 +131,22 @@ em{
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 100px;
+    height: 6.25rem;
     background-color: #f2f2f2;
     border-top-color: solid 1px rgb(218, 218, 218);
 }
 .foooter1{
     flex-direction: row;
-    height: 20px;
+    height: 1.25rem;
 }
 .footer2{
     flex-direction: row; 
     border-top: solid 1px rgb(218, 218, 218);
-    height: 45px;
+    height: 2.8125rem;
 }
 
 h3{
-    margin-left: 47px;
+    margin-left: 2.9375rem;
     color: rgba(97, 97, 97, 0.966);
     font-weight: normal;
 }
@@ -156,7 +156,7 @@ h3{
 }
 .lst2{
     float: right;
-    margin-left: 300px;
+    margin-left: 18.75rem;
     flex-wrap: nowrap;
 }
 /* ce code css est mis pour supprimer les barres horizontal et vertical 
